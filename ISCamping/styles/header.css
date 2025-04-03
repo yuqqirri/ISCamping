@@ -1,0 +1,30 @@
+header {
+    background: white;
+    padding: 0 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  header > div {
+    max-width: 120000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0;
+  }
+  
+  header img {
+    height: 40px;
+    transition: transform 0.3s;
+  }
+  
+  header img:hover {
+    transform: scale(1.05);
+  }
+header li:hover {
+    background: #f0f0f0;
+    color: #717171;
+  }

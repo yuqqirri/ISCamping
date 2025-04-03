@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(168, 168, 168);
+}
+  
+  .footer-additional-text {
+    margin-right: 20px;
+  }
+  
+  .footer-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 1; /* Занимает все доступное пространство */
+    justify-content: center; /* Центрируем элементы списка */
+  }
+  
+  .footer-ul li {
+    margin: 0 10px;
+  }

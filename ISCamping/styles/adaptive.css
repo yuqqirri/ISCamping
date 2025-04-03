@@ -1,0 +1,28 @@
+/* Адаптивный дизайн */
+@media (max-width: 768px) {
+    header > div {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    section {
+      padding: 40px 15px;
+      margin: 30px 15px;
+    }
+  
+    .slideshow-container {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header ul {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+    
+    section h2 {
+      font-size: 24px;
+    }
+  }
